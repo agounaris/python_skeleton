@@ -10,7 +10,7 @@ config = {
         'download_url': 'Where to download it.',
         'author_email': 'My email.',
         'version': '0.1',
-        'install_requires': ['nose'],
+        'install_requires': ['nose', 'behave', 'hamcrest'],
         'packages': ['PROJECT_NAME'],
         'scripts': [],
         'name': 'projectname'
