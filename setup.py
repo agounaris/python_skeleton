@@ -10,10 +10,10 @@ config = {
         'download_url': 'Where to download it.',
         'author_email': 'My email.',
         'version': '0.1',
-        'install_requires': ['nose', 'behave', 'hamcrest'],
+        'install_requires': ['nose', 'behave', 'hamcrest', 'cx_Freeze'],
         'packages': ['PROJECT_NAME'],
         'scripts': [],
-        'name': 'projectname'
+        'name': 'project_name'
 }
 
 setup(**config)
